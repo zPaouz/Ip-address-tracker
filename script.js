@@ -14,7 +14,7 @@ search_form.addEventListener("submit", (event) => {
 
 /* Search for an IpAddress */
 async function search_Ip_Address(ip_address) {
-  const api_key = "at_b1AyHXsURuXnWIQ8Tl6NNawNn8VYP";
+  const api_key = "at_z3eEVBhYx2gLsStMksbeus3gPs8az";
   const request = await fetch(
     `https://geo.ipify.org/api/v2/country,city?apiKey=${api_key}&ipAddress=${ip_address}`
   );
